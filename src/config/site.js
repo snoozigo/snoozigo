@@ -12,8 +12,7 @@ export const site = {
   email: "snoozigo@gmail.com",
   instagram: "https://www.instagram.com/snoozigo",
   instagramHandle: "@snoozigo",
-  mapsUrl:
-    "https://www.google.com/maps/search/?api=1&query=K+K+Padmanabhan+Rd,+Kacheripady,+Kochi,+Ernakulam,+Keralam+682018",
+  mapsUrl: "https://maps.app.goo.gl/Rdo4dswNwRZRPXnt5",
   checkIn: "2:00 PM",
   checkOut: "11:00 AM",
   price: 599,
