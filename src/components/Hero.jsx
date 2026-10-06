@@ -6,7 +6,7 @@ export function Hero() {
     <section className="hero" id="home">
       <div className="hero__media">
         <img
-          src="/images/lounge.jpg"
+          src={`${import.meta.env.BASE_URL}images/lounge.jpg`}
           alt="The snoozigo lounge, with a mural and yellow cushions"
           fetchPriority="high"
         />

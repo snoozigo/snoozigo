@@ -5,14 +5,15 @@ export const site = {
   name: "snoozigo",
   tagline: "Daily rental dormitory stay",
   city: "Kochi",
-  address: "Kochi, Kerala",
+  address:
+    "K K Padmanabhan Rd, Kacheripady, Kochi, Ernakulam, Keralam 682018",
   phoneDisplay: "+91 8075 05 1515",
   phoneE164: "918075051515",
   email: "snoozigo@gmail.com",
   instagram: "https://www.instagram.com/snoozigo",
   instagramHandle: "@snoozigo",
   mapsUrl:
-    "https://www.google.com/maps/search/?api=1&query=snoozigo+Kochi",
+    "https://www.google.com/maps/search/?api=1&query=K+K+Padmanabhan+Rd,+Kacheripady,+Kochi,+Ernakulam,+Keralam+682018",
   checkIn: "2:00 PM",
   checkOut: "11:00 AM",
   price: 599,
@@ -26,13 +27,15 @@ export const navLinks = [
   { id: "contact", label: "Contact" },
 ];
 
+const photo = (file) => `${import.meta.env.BASE_URL}images/${file}`;
+
 const dormPhoto = {
-  src: "/images/dorm.jpg",
+  src: photo("dorm.jpg"),
   alt: "Orange-framed bunks with black bedding at snoozigo",
 };
 
 const loungePhoto = {
-  src: "/images/lounge.jpg",
+  src: photo("lounge.jpg"),
   alt: "Lounge with a mural, grey sofa, and yellow cushions",
 };
 
@@ -61,7 +64,7 @@ export const rooms = [
     summary: "The same bunk setup, reserved for women guests.",
     images: [
       {
-        src: "/images/dorm.jpg",
+        src: photo("dorm.jpg"),
         alt: "Dormitory bunks at snoozigo, used for the women-only room",
       },
       loungePhoto,

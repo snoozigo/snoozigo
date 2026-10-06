@@ -26,7 +26,7 @@ export function About() {
         </div>
         <figure className="about__frame">
           <img
-            src="/images/dorm.jpg"
+            src={`${import.meta.env.BASE_URL}images/dorm.jpg`}
             alt="snoozigo dormitory bunks with orange frames and black bedding"
             loading="lazy"
           />

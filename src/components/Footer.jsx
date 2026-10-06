@@ -12,7 +12,7 @@ export function Footer() {
       <div className="wrap footer__grid">
         <div>
           <a className="brand brand--footer" href="#home">
-            <img src="/images/logo.jpg" alt="" width="44" height="44" />
+            <img src={`${import.meta.env.BASE_URL}images/logo.jpg`} alt="" width="44" height="44" />
             <span className="wordmark">
               snoozi<span>go</span>
             </span>

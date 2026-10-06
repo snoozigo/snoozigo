@@ -26,7 +26,7 @@ export function Header() {
     <header className={`header ${scrolled || open ? "is-solid" : ""}`}>
       <div className="header__bar">
         <a className="brand" href="#home" onClick={() => setOpen(false)}>
-          <img src="/images/logo.jpg" alt="" width="44" height="44" />
+          <img src={`${import.meta.env.BASE_URL}images/logo.jpg`} alt="" width="44" height="44" />
           <span className="wordmark">
             snoozi<span>go</span>
           </span>
